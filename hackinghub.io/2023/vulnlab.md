@@ -122,7 +122,6 @@ inside='{"id":2,"username":"'$2'"}'
 inside=$(/bin/echo -n $inside | base64)
 token=$(/bin/echo -n '{"auth":true,"data":"'$inside'"}' |base64)
 
-
 echo $token
 curl $1/account/files -H "Cookie: token=$token" | jq
 curl $1/account/files -H "Cookie: token=$token" | jq  -r '.files[] |.link'
