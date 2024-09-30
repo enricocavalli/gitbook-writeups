@@ -114,7 +114,7 @@ Interestingly enough we have a way to list directories.
 
 If you want to play around an alternative way is using a simple bash script:
 
-{% code title="lfi-exploit.sh <domain> <path>" %}
+{% code title="lfi-exploit.sh <domain> <path>" lineNumbers="true" %}
 ```bash
 #!/bin/sh
 
