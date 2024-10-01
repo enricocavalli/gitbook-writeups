@@ -15,5 +15,6 @@
 ## THM
 
 * [2024](thm/2024/README.md)
+  * [test1](thm/2024/test1.md)
   * [Hammer](thm/2024/hammer.md)
   * [Injectics](thm/2024/injectics.md)
