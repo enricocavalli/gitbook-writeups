@@ -17,3 +17,4 @@
 * [2024](thm/2024/README.md)
   * [Hammer](thm/2024/hammer.md)
   * [Injectics](thm/2024/injectics.md)
+  * [test](thm/2024/test.md)

@@ -1,6 +1,6 @@
 # VulnLab
 
-<figure><img src="../../.gitbook/assets/vulnlab/pic8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/pic8.png" alt=""><figcaption></figcaption></figure>
 
 Upon browsing our VulnLab instance we immediately notice a request to `/thumbnail?file=bg2.jpg`. The first thing that comes to mind is of course path traversal. In fact if we request `/etc/passwd` with a classic payload we get an error message:
 
